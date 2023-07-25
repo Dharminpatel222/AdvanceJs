@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <!-- Write a JavaScript program to calculate multiplication and division of two numbers (input from the user). -->
+ 
+    <!-- <form>
+        1st Number : <input type="text" id="firstNumber" /><br>
+        2nd Number: <input type="text" id="secondNumber" /><br>
+        <input type="button" onClick="multiplyBy()" Value="Multiply" />
+        <input type="button" onClick="divideBy()" Value="Divide" />
+    </form>
+    <p>The Result is : <br>
+        <span id="result"></span>
+    </p>
+    <script>
+        function multiplyBy(){
+            num1 = document.getElementById("firstNumber").value;
+            num2 = document.getElementById("secondNumber").value;
+            document.getElementById("result").innerHTML = num1 * num2;
+        }
+        function divideBy(){
+                num1 = document.getElementById("firstNumber").value;
+                num2 = document.getElementById("secondNumber").value;
+                document.getElementById("result").innerHTML = num1 / num2;
+            }
+    </script> -->
+
+    <!-- //============================================================================== -->
+
+    <!-- <script>
+        alert("this");
+    </script> -->
+
+<!-- //======================================= -->
+
+    <!-- <script>
+        let a = "apple";
+        let b = "pineapple";
+        if(a.length>b.length){
+            console.log("true");
+        }else{
+            console.log("false");
+        }
+    </script> -->
+
+    <!-- //================================================ -->
+
+    <!-- <script>
+        let a = undefined;
+        let b = null;
+
+        if(a===b){
+            console.log("true");
+        }else{
+            console.log("false");
+        }
+    </script>     -->
+
+    <!-- //===========================================================// -->
+
+    <!-- Will alert be shown? -->
+
+    <!-- <script>
+        let a = prompt("enter any value");
+        if(a==0){
+            alert("hello");
+        }
+    </script> -->
+
+    <!-- //==============================================================// -->
+
+    <!-- The following function returns true if the parameter age is greater than
+    18. Otherwise it asks for a confirmation and returns its result: -->
+
+    <!-- <script>
+        function checkage(age){
+         let age1 = age>18?true:"did parents allow you?";
+         console.log(age1);
+        }
+       checkage(20);
+        
+    </script> -->
+
+    <!-- /=====================================================================// -->
+
+
+    <!-- let john = { name: "John", age: 25 }; let pete = { name: "Pete", age: 30 }; let mary =
+    { name: "Mary", age: 28 }; let users = [ john, pete, mary ]; let names = /* ... your
+    code */ alert( names ); // John, Pete, Mary -->
+
+<!-- <script>
+    let john = { name: "John", age: 25 };
+    let pete = { name: "Pete", age: 30 };
+    let mary =  { name: "Mary", age: 28 };
+
+
+    let users = [john, pete, mary];
+
+    let names = users.map((e)=>{
+        return e.name;
+    })
+    console.log(names);
+    
+</script> -->
+
+<!-- //============================================================================// -->
+    <!-- <script>
+    usersMapped = [
+    { fullName: "John Smith", id: 1 },
+    { fullName: "Pete Hunt", id: 2 },
+    { fullName: "Mary Key", id: 3 }
+    ]
+
+    // alert(usersMapped[0].id);
+    alert(usersMapped[0].fullName);
+    </script> -->
+
+    <!-- //========================================================= -->
+<!-- 
+    Sum the properties There is a salaries object with arbitrary number of salaries. Write
+    the function sumSalaries(salaries) that returns the sum of all salaries using
+    Object.values and the for..of loop.If salaries is empty, then the result must be 0 -->
+
+    <!-- <script>
+        let salaries = {
+        "John": 100,
+        "Pete": 300,
+        "Mary": 250
+        };
+
+        function sumSalaries(salaries){
+            let sum = 0;
+            for (let salary of Object.values(salaries)){
+                sum = sum + salary;
+            }
+            return sum;
+        }
+        let total = sumSalaries(salaries);
+        console.log(total);
+    </script> -->
+
+<!-- /===========================================================================/ -->
+        <!-- 
+        Destructuring assignment We have an object: Write the Destructuring assignment that
+        reads:
+        a) Name property into the variable name.
+        b) Year’s property into the variable age.
+        c) isAdmin property into the variable isAdmin (false, if no such property)
+        d) let user = { name: "John", years: 30}; -->
+
+        <!-- <script>
+            let user = {
+                name : "john",
+                years : 30            
+        }
+
+        let {name,years:age,isAdmin = false} = user;
+
+        console.log(name);
+        console.log(age);
+        console.log(isAdmin);
+
+        </script> -->
+
+        <!-- //=================================================================== -->
+        
+        <!-- Turn the object into JSON and back Turn the user into JSON and then read it back
+        into another variable.
+        user = { name: "John Smith", age: 35}; -->
+        <!-- <script>
+        user = { name: "John Smith", age: 35}; 
+
+        let userjson = JSON.stringify(user);
+            console.log(userjson);
+
+         let parsejson = JSON.parse(userjson);
+         console.log(parsejson);   
+        </script> -->
+
+        <!-- /=======================================================================/ -->
+
+        <!-- // hide and show password using event // -->
+<!-- 
+        <input type="password" id="input">
+        <button onclick="find()">show password</button>
+
+        <script>
+            function find(){
+                let input = document.getElementById("input");
+
+                if(input.type == "password"){
+                    input.type = "text"
+                }else{
+                    input.type = "password"
+                }
+            }
+        </script> -->
+
+        <!-- //=====================================================================// -->
+
+        
+
+</body>
+</html>

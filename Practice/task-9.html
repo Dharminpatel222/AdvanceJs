@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let num1 = parseInt(prompt('enter the first number'));
+        //     let num2 = parseInt(prompt("enter the first number"));
+
+        //     let sum = num1 + num2;
+
+        //     console.log(`${num1} and ${num2} is ${sum}`);
+
+
+       // =========================================================//
+
+    //    let num1 = prompt('enter the number');
+
+    //    let result = Math.sqrt(num1);
+    //    console.log(result);
+
+//===========================================================//
+
+        // let a = prompt('enter the number');
+        // let b = prompt('enter the number');
+
+        // let temp;
+
+        // temp = a;
+        // a = b;
+        // b = temp;
+
+        // console.log(a);
+        // console.log(b);
+
+        //==============================================================//
+
+        // const f = prompt("value");
+
+        // // const f = c * 1.8 + 32 ;
+        // const c = (f - 32) /1.8;
+
+        // console.log(c);
+
+        //=========================================///
+
+        // let number = prompt('value');
+
+        // if(number>0){
+        //     console.log("positive")
+        // }else if(number==0){
+        //     console.log("zero");
+        // }else{
+        //     console.log("nagative");
+        // }
+
+        //=============================================//
+
+        // program to print prime numbers between the two numbers
+
+            // // take input from the user
+            // const lowerNumber = parseInt(prompt('Enter lower number: '));
+            // const higherNumber = parseInt(prompt('Enter higher number: '));
+
+            // console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`);
+
+            // // looping from lowerNumber to higherNumber
+            // for (let i = lowerNumber; i <= higherNumber; i++) {
+            //     let flag = 0;
+
+            //     // looping through 2 to user input number
+            //     for (let j = 2; j < i; j++) {
+            //         if (i % j == 0) {
+            //             flag = 1;
+            //             break;
+            //         }
+            //     }
+
+            //     // if number greater than 1 and not divisible by other numbers
+            //     if (i > 1 && flag == 0) {
+            //         console.log(i);
+            //     }
+            // }
+
+            //================================================================//
+            // program to find the factorial of a number
+
+            // let number = prompt('enter any number');
+
+            // if(number<1){
+            //     console('error');
+            // }else if(number==0){
+            //     console.log('erro1')
+            // }else{
+            //     let fact = 1;
+            //     for(i=1;i<=number;i++){
+            //         fact = fact*i;
+            //     }
+            //     console.log(fact);
+            // }
+
+            //====================================================//
+
+            // program to generate a multiplication table//
+
+            // let number = prompt('enter any number');
+
+            // for( let i=1;i<=10;i++){
+            //      let result = i*number;
+
+            // console.log(`${number} * ${i} = ${result}`);
+
+            // }
+
+            //==============================================//
+
+            // program to generate fibonacci series up to a certain number
+
+            // let number = prompt('enter any number');
+
+            // let a = 0;
+            // let b = 1;
+            
+
+            // console.log(a);
+            // console.log(b);
+
+            // for(i=0;i<=number;i++){
+            //     let temp = a + b;
+            //     console.log(temp);
+
+            //     a = b;
+            //     b = temp;
+            // }
+
+            //=======================================================//
+
+            // program to check an Armstrong number of three digits
+
+    //             let sum = 0;
+    //             const number = prompt('Enter a three-digit positive integer: ');
+
+    //             // create a temporary variable
+    //             let temp = number;
+    //             while (temp > 0) {
+    //                 // finding the one's digit
+    //                 let remainder = temp % 10;
+
+    //                 sum += remainder * remainder * remainder;
+
+    //                 // removing last digit from the number
+    //                 temp = parseInt(temp / 10); // convert float into integer
+    //             }
+    //             // check the condition
+    //             if (sum == number) {
+    //                 console.log(`${number} is an Armstrong number`);
+    //             }
+    //             else {
+    //                 console.log(`${number} is not an Armstrong number.`);
+    //             }
+    // 
+    //======================================================================//
+
+    // program to find the factors of an integer
+
+        // // take input
+        // const num = prompt('Enter a positive number: ');
+
+        // console.log(`The factors of ${num} is:`);
+
+        // // looping through 1 to num
+        // for (let i = 1; i <= num; i++) {
+
+        //     // check if number is a factor
+        //     if (num % i == 0) {
+        //         console.log(i);
+        //     }
+        // }
+
+        // =======================================
+
+        // // program to find the sum of natural numbers using recursion
+
+        //     function sum(num) {
+        //         if (num > 0) {
+        //             return num + sum(num - 1);
+        //         }
+        //         else {
+        //             return num;
+        //         }
+        //     }
+
+        //     // take input from the user
+        //     const number = parseInt(prompt('Enter a positive integer: '));
+
+        //     const result = sum(number);
+
+        //     // display the result
+        //     console.log(`The sum is ${result}`);
+
+        //================================================//
+        // program to check if the string is palindrome or not
+
+            // function checkPalindrome(string) {
+
+            //     // convert string to an array
+            //     const arrayValues = string.split('');
+
+            //     // reverse the array values
+            //     const reverseArrayValues = arrayValues.reverse();
+
+            //     // convert array to string
+            //     const reverseString = reverseArrayValues.join('');
+
+            //     if (string == reverseString) {
+            //         console.log('It is a palindrome');
+            //     }
+            //     else {
+            //         console.log('It is not a palindrome');
+            //     }
+            // }
+
+            // //take input
+            // const string = prompt('Enter a string: ');
+
+            // checkPalindrome(string);
+
+            //====================================================//
+            // program to reverse a string
+
+                // function reverseString(str) {
+
+                //     // return a new array of strings
+                //     const arrayStrings = str.split("");
+
+                //     // reverse the new created array elements
+                //     const reverseArray = arrayStrings.reverse();
+
+                //     // join all elements of the array into a string
+                //     const joinArray = reverseArray.join("");
+
+                //     // return the reversed string
+                //     return joinArray;
+                // }
+
+                // // take input from the user
+                // const string = prompt('Enter a string: ');
+
+                // const result = reverseString(string);
+                // console.log(result);
+
+                //===============================================//
+                    // program to create JavaScript object using instance of an object
+
+                        // function Person() {
+                        //     this.name = 'John',
+                        //         this.age = 20,
+                        //         this.hobbies = ['reading', 'games', 'coding'],
+                        //         this.greet = function () {
+                        //             console.log('Hello everyone.');
+                        //         },
+                        //         this.score = {
+                        //             maths: 90,
+                        //             science: 80
+                        //         }
+
+                        // }
+
+                        // const person = new Person();
+
+                        // console.log(typeof person); // object
+
+                        // // accessing the object value
+                        // console.log(person.name);
+                        // console.log(person.hobbies[0]);
+                        // person.greet();
+                        // console.log(person.score.maths);
+        // ==========================================================//
+        // program to convert an object to a string
+
+            // const person = {
+            //     name: 'Jack',
+            //     age: 27
+            // }
+
+            // const result = JSON.stringify(person);
+
+            // console.log(result);
+            // console.log(typeof result);
+
+            // ==================================================//
+
+            // program to remove duplicate value from an array
+                //     let array = [1, 2, 3, 2, 3];
+
+                // function getUnique(arr) {
+
+                //     // removing duplicate
+                //     let uniqueArr = [...new Set(arr)];
+
+                //     console.log(uniqueArr);
+                // }
+
+
+                // // calling the function
+                // getUnique(array);
+
+        //==============================================//
+        // program to merge and remove duplicate value from an array
+
+            // function getUniqueAfterMerge(arr1, arr2) {
+
+            //     // merge two arrays
+            //     let arr = [...arr1, ...arr2];
+
+            //     // removing duplicate
+            //     let uniqueArr = [...new Set(arr)];
+
+            //     console.log(uniqueArr);
+            // }
+
+            // const array1 = [1, 2, 3];
+            // const array2 = [2, 3, 5]
+
+            // // calling the function
+            // getUniqueAfterMerge(array1, array2);
+
+    //==================================================================//
+    // program to sort array by property name
+
+        // function compareAge(a, b) {
+
+        //     return a.age - b.age;
+        // }
+
+        // const students = [{ name: 'Sara', age: 24 }, { name: 'John', age: 22 }, { name: 'Jack', age: 27 }];
+
+        // console.log(students.sort(compareAge));
+
+    //===========================================================/
+    // program to extract value as an array from an array of objects
+
+        // function extractValue(arr, prop) {
+
+        //     // extract value from property
+        //     let extractedValue = arr.map(item => item[prop]);
+
+        //     return extractedValue;
+
+        // }
+
+        // const objArray = [{ a: 1, b: 2 }, { a: 4, b: 5 }, { a: 8, b: 9 }];
+
+        // // passing an array of objects and property 'a' to extract
+        // const result = extractValue(objArray, 'a');
+        // console.log(result); 
+
+    //==============================================================//
+
+    // program to compare two arrays
+
+        // function compareArrays(arr1, arr2) {
+
+        //     // compare arrays
+        //     const result = JSON.stringify(arr1) == JSON.stringify(arr2)
+
+        //     // if result is true
+        //     if (result) {
+        //         console.log('The arrays have the same elements.');
+        //     }
+        //     else {
+        //         console.log('The arrays have different elements.');
+        //     }
+
+        // }
+
+        // const array1 = [1, 3, 5, 8];
+        // const array2 = [1, 3, 5, 8];
+
+        // compareArrays(array1, array2);
+
+        //===============================================================//
+
+        // program to perform intersection between two arrays
+
+            // function performIntersection(arr1, arr2) {
+
+            //     const intersectionResult = arr1.filter(x => arr2.indexOf(x) !== -1);
+
+            //     return intersectionResult;
+
+            // }
+
+            // const array1 = [1, 2, 3, 5, 9];
+            // const array2 = [1, 3, 5, 8];
+
+            // const result = performIntersection(array1, array2);
+            // console.log(result);
+
+        //==========================================================//
+        
+        // program to split array into smaller chunks
+
+            // function splitIntoChunk(arr, chunk) {
+
+            //     while (arr.length > 0) {
+
+            //         let tempArray;
+            //         tempArray = arr.splice(0, chunk);
+            //         console.log(tempArray);
+            //     }
+            // }
+
+            // const array = [1, 2, 3, 4, 5, 6, 7, 8];
+            // const chunk = 2;
+            // splitIntoChunk(array, chunk);
+
+
+        //=================================================//
+
+                // // input from the user
+                //     const min = parseInt(prompt("Enter a min value: "));
+                //     const max = parseInt(prompt("Enter a max value: "));
+
+                //     // generating a random number
+                //     const a = Math.floor(Math.random() * (max - min + 1)) + min;
+
+                //     // display a random number
+                //     console.log(`Random value between ${min} and ${max} is ${a}`);
+            
+             //===================================================//
+             
+             // program to get the URL
+
+                // const url1 = window.location.href;
+                // const url2 = document.URL;
+                // console.log(url1);
+                // console.log(url2)
+
+            //=======================================//
+
+            // program to validate an email address
+
+                // function validateEmail(email_id) {
+                //     const regex_pattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+                //     if (regex_pattern.test(email_id)) {
+                //         console.log('The email address is valid');
+                //     }
+                //     else {
+                //         console.log('The email address is not valid');
+                //     }
+                // }
+
+                // validateEmail('abc123@gmail.com');
+                // validateEmail('hello@com');
+
+            //============================================================//
+5-7-2023
+            // program to check if a number is a float or integer value
+
+                // function checkNumber(x) {
+
+                //     // check if the passed value is a number
+                //     if (typeof x == 'number' && !isNaN(x)) {
+
+                //         // check if it is integer
+                //         if (Number.isInteger(x)) {
+                //             console.log(`${x} is integer.`);
+                //         }
+                //         else {
+                //             console.log(`${x} is a float value.`);
+                //         }
+
+                //     } else {
+                //         console.log(`${x} is not a number`);
+                //     }
+                // }
+
+                // checkNumber('hello');
+                // checkNumber(44);
+                // checkNumber(3.4);
+                // checkNumber(-3.4);
+                // checkNumber(NaN);
+
+                //========================or============================//
+
+                // program to check if a number is a float or integer value
+
+                    // function checkNumber(x) {
+
+                    //     let regexPattern = /^-?[0-9]+$/;
+
+                    //     // check if the passed number is integer or float
+                    //     let result = regexPattern.test(x);
+
+                    //     if (result) {
+                    //         console.log(`${x} is an integer.`);
+                    //     }
+                    //     else {
+                    //         console.log(`${x} is a float value.`)
+                    //     }
+
+                    // }
+
+                    // checkNumber(44);
+                    // checkNumber(-44);
+                    // checkNumber(3.4);
+                    // checkNumber(-3.4);
+
+            //==============================================================//
+            
+            // let array = [1,2,3,4,5,6];
+
+            // let sum = 0;
+
+            // for(i=0;i<array.length;i++){
+            //     sum = sum + array[i];
+            // }
+            // console.log(sum);
+
+            //=============================================================//
+
+            // Write a program to find the largest element in an array using js.
+
+                // function findLargestElement(array) {
+                //     let largestElement = array[0]; // Assume the first element is the largest
+
+                //     for (let i = 1; i < array.length; i++) {
+                //         if (array[i] > largestElement) {
+                //             largestElement = array[i];
+                //         }
+                //     }
+
+                //     return largestElement;
+                // }
+
+                // // Example usage
+                // const numbers = [10, 5, 20, 8, 15];
+                // const largestNumber = findLargestElement(numbers);
+                // console.log("The largest number is: " + largestNumber);
+
+                // by reduce
+
+                // const numbers = [10, 5, 20, 8, 15];
+                // let result = numbers.reduce((a,b)=>{
+                //     return a > b? a : b;
+                // })
+                // console.log(result);
+
+                //==========================================================================//
+
+                // Write a program to count the number of even and odd elements in an array in js.
+
+                // let array = [1,2,3,4,5,6,7,8,9,10];
+                // let even_count = 0;
+                // let odd_count = 0;
+
+                // for(i=0;i<array.length;i++){
+                //     if(i%2==0){
+                //         even_count++;
+                //     }else{
+                //         odd_count++;
+                //     }
+                // }
+                // console.log(even_count);
+                // console.log(odd_count);
+
+                // by function
+
+            // function countevenandodd(array){
+
+            //         let even_count = 0;
+            //         let odd_count = 0;
+
+            //     for(i=0;i<array.length;i++){
+            //         if(i%2==0){
+            //             even_count++;
+            //         }else{
+            //             odd_count++;
+            //         }
+            //     }
+            //     return even_count
+            //     }
+            //     const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            //         const counts = countEvenAndOddElements(numbers);
+            //         console.log("Number of even elements: " + counts.even);
+            //         console.log("Number of odd elements: " + counts.odd);
+
+                //===========================================================//
+
+                // Write a program to find the second largest element in an array javascript.
+
+                /// error//////
+
+                // function findSecondLargestElem(arr) {
+                //         let first = -1, second = -1;
+
+                //         for (let i = 0; i <= arr.length - 1; i++) {
+                //             if (arr[i] > first) {
+                //                 second = first;
+                //                 first = arr[i];
+                //             }
+                //             else if (arr[i] > second && arr[i] != first) {
+                //                 second = arr[i];
+                //             }
+                //         }
+                //         console.log(second);
+                //     }
+                //     let arr = [12, 35, 1, 10, 34, 1]
+                //     findSecondLargestElem(arr);
+
+            //==================================================//
+
+            // Write a program to check if an array is sorted in ascending order.
+
+            // let array = [5,2,8,6,4,9,1];
+
+            // let sort = array.sort();
+
+            // console.log(sort);
+
+            //=================================================================// errro/
+
+            // Write a program to find the median of an array js
+
+            // function findMedian(array) {
+            //         const sortedArray = array.slice().sort((a, b) => a - b);
+            //         const middleIndex = Math.floor(sortedArray.length / 2);
+
+            //         if (sortedArray.length % 2 === 0) {
+            //             // Even number of elements, average the middle two elements
+            //             return (sortedArray[middleIndex - 1] + sortedArray[middleIndex]) / 2;
+            //         } else {
+            //             // Odd number of elements, return the middle element
+            //             return sortedArray[middleIndex];
+            //         }
+            //     }
+
+            //     // Example usage
+            //     const numbers = [10, 5, 20, 8, 15];
+            //     const median = findMedian(numbers);
+            //     console.log("The median is: " + median);
+
+    //=======================================================================//
+
+    // Write a program to remove duplicates from an array in js.
+
+    // function removedublicate(array){
+
+    //     return Array.from(new Set(array));
+    // }
+
+    // let number = [1,2,3,2,3,5,6,7];
+    // let result = removedublicate(number);
+    // console.log(result);
+
+    //===============================================================
+
+    //  Write a program to find the intersection of two arrays.
+                
+    // let first_array = [1, 3, 5, 7, 9];
+    // let second_array = [2, 3, 4, 5, 6, 9];
+
+    
+    // let new_array = first_array.filter((e)=>{
+    //      return second_array.includes(e);
+    // })
+
+    // console.log("Array obtained is :");
+    // console.log(new_array);
+
+    //===================================================================//
+
+  // Write a program to find the median of an array js
+
+    // let array = [4,3,2,1];
+
+    // let sortarray = array.sort((a,b)=> {
+    //     return a-b;
+    // }) 
+
+    // let middleIndex = Math.floor(array.length/2);
+
+    // if(sortarray.length%2==0){
+    //     let a = (sortarray[middleIndex-1] + sortarray[middleIndex])/2;
+    //     console.log(a);
+    // }else{
+    // let b = sortarray[middleIndex];
+    // console.log(b);
+    // }
+
+    // ========================================================//
+    
+        // how to array last index plus one in js
+
+        // function lastindex(arr){
+
+        // if(arr.length>0){
+        //     let lastindexx = arr.length - 1;
+        //      arr[lastindexx] = arr[lastindexx] + 1;
+        // }
+        // return arr;
+        // }
+        // let array = [1, 2, 3, 4];
+        // let a = lastindex(array);
+        // console.log(a);
+
+        //======================================================//
+
+        
+
+        
+    </script>
+</body>
+</html>
